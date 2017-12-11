@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>功夫网社</title>
   <id>http://gfws.cf</id>
-  <updated>2017-12-11T18:13:01+08:00</updated>
-  <subtitle>我们都向往着自由</subtitle>
+  <updated>2017-12-11T21:54:37+08:00</updated>
+  <subtitle>We all yearn for freedom.</subtitle>
   <link href="http://gfws.cf"></link>
   <author>
     <name>功夫网社</name>
   </author>
   <entry>
-    <title>简洁的静态博客构建工具 —— 纸小墨（InkPaper）</title>
-    <updated>2016-07-11T17:00:00+08:00</updated>
-    <id>tag:gfws.cf,2016-07-11:/ink-blog-tool.html</id>
-    <content type="html">&lt;p&gt;纸小墨（InkPaper）是一个GO语言编写的开源静态博客构建工具，可以快速搭建博客网站。它无依赖跨平台，配置简单构建快速，注重简洁易用与更优雅的排版。&lt;/p&gt;&#xA;</content>
-    <link href="http://gfws.cf/ink-blog-tool.html"></link>
+    <title>Easy-SSR-Bash-Python - ShadowsoksR多用户管理脚本，轻松添加修改，删除用户</title>
+    <updated>2017-12-11T12:00:00+08:00</updated>
+    <id>tag:gfws.cf,2017-12-11:/easy-ssr-bash-python.html</id>
+    <content type="html">&lt;p&gt;一个ShadowsocksR多用户管理Shell脚本（基于官方mujson版本），集成SSR多用户管理，流量限制，加密更改等基本操作。是一个基于ShadowsocksR官方的mujson的辅助脚本。方便用户操作。&lt;/p&gt;&#xA;</content>
+    <link href="http://gfws.cf/easy-ssr-bash-python.html"></link>
     <author>
       <name>Jack Smith</name>
     </author>
   </entry>
   <entry>
-    <title>An Elegant Static Blog Generator —— InkPaper</title>
+    <title>简洁的静态博客构建工具 —— 纸小墨（InkPaper）</title>
     <updated>2016-07-11T17:00:00+08:00</updated>
-    <id>tag:gfws.cf,2016-07-11:/ink-blog-tool-en.html</id>
-    <content type="html">&lt;p&gt;InkPaper is an static blog generator developed by Golang, No dependencies, Cross platform, Easy use, Fast build, Elegant theme.&lt;/p&gt;&#xA;</content>
-    <link href="http://gfws.cf/ink-blog-tool-en.html"></link>
+    <id>tag:gfws.cf,2016-07-11:/help.html</id>
+    <content type="html">&lt;p&gt;纸小墨（InkPaper）是一个GO语言编写的开源静态博客构建工具，可以快速搭建博客网站。它无依赖跨平台，配置简单构建快速，注重简洁易用与更优雅的排版。&lt;/p&gt;&#xA;</content>
+    <link href="http://gfws.cf/help.html"></link>
     <author>
       <name>Jack Smith</name>
     </author>

@@ -67,10 +67,10 @@
 </script>
 
 
-        <meta name="keywords" content="">
-        <meta name="description" content="关于作者">
+        <meta name="keywords" content="ShadowsoksR,Shell,脚本,">
+        <meta name="description" content="Easy-SSR-Bash-Python - ShadowsoksR多用户管理脚本，轻松添加修改，删除用户">
         <meta name="author" content="Jack Smith">
-        <title>关于作者</title>
+        <title>Easy-SSR-Bash-Python - ShadowsoksR多用户管理脚本，轻松添加修改，删除用户</title>
     </head>
     <body>
         <article class="container">
@@ -87,20 +87,67 @@
 </header>
 
             <article class="main article">
-                <h1 class="title">关于作者</h1>
+                <h1 class="title">Easy-SSR-Bash-Python - ShadowsoksR多用户管理脚本，轻松添加修改，删除用户</h1>
                 <section class="info">
                     <span class="avatar" style="background-image: url(/images/avatar.png);"></span>
                     <a class="name" href="/about.me.html">Jack Smith</a>
                     
-                    <span class="date" data-time="0"><span class="from"></span></span>
+                    <span class="date" data-time="1512964800"><span class="from"></span></span>
                     
-                    <span class="tags"></span>
+                    <span class="tags"><a class="tag" href="/tag/ShadowsoksR/index.html">ShadowsoksR</a><a class="tag" href="/tag/Shell/index.html">Shell</a><a class="tag" href="/tag/%e8%84%9a%e6%9c%ac/index.html">脚本</a></span>
                 </section>
-                <article class="content"><h2>纸小墨</h2>
+                <article class="content"><p>一个ShadowsocksR多用户管理Shell脚本（基于官方mujson版本），集成SSR多用户管理，流量限制，加密更改等基本操作。是一个基于ShadowsocksR官方的mujson的辅助脚本。方便用户操作。</p>
 
-<p>构建只为纯粹书写的博客。</p>
+<h2>系统支持</h2>
 
-<p><a href="http://www.chole.io/">http://www.chole.io/</a></p>
+<ul>
+<li>Ubuntu 14</li>
+<li>Ubuntu 16</li>
+<li>Debian 7</li>
+<li>Debian 8</li>
+<li>CentOS 6</li>
+<li>CentOS 7</li>
+</ul>
+
+<h2>功能</h2>
+
+<ul>
+<li>一键开启、关闭SSR服务</li>
+<li>添加、删除、修改用户端口和密码</li>
+<li>自由限制用户端口流量使用</li>
+<li>自动修改防火墙规则</li>
+<li>自助修改SSR加密方式、协议、混淆等参数</li>
+<li>自动统计，方便查询每个用户端口的流量使用情况</li>
+<li>自动安装Libsodium库以支持Chacha20等加密方式</li>
+</ul>
+
+<h2>缺点</h2>
+
+<ul>
+<li>无法删除最后一名用户（官方限制）</li>
+</ul>
+
+<h2>安装</h2>
+
+<h3>CentOS系列</h3>
+
+<pre><code>yum update -y &amp;&amp; yum install unzip zip -y &amp;&amp; yum install wget -y &amp;&amp; wget -N --no-check-certificate https://raw.githubusercontent.com/Moexin/Easy-SSR-Bash-Python-The-Final/master/ssr.zip &amp;&amp; unzip ssr.zip &amp;&amp; cd SSR* &amp;&amp; bash install.sh
+</code></pre>
+
+<h3>Debian/Ubuntu系列</h3>
+
+<pre><code>apt-get update -y &amp;&amp; apt-get install unzip zip -y &amp;&amp; apt-get install wget -y &amp;&amp; wget -N --no-check-certificate https://raw.githubusercontent.com/Moexin/Easy-SSR-Bash-Python-The-Final/master/ssr.zip &amp;&amp; unzip ssr.zip &amp;&amp; cd SSR* &amp;&amp; bash install.sh
+</code></pre>
+
+<h2>卸载</h2>
+
+<pre><code>cd /root/SSR-Bash-Python-The-Final &amp;&amp; bash uninstall.sh
+</code></pre>
+
+<h2>自检</h2>
+
+<pre><code>cd /root/SSR-Bash-Python-The-Final &amp;&amp; bash self-check.sh
+</code></pre>
 </article>
                 <section class="author">
                     <div class="avatar" style="background-image: url(/images/avatar.png);"></div>
@@ -109,6 +156,11 @@
                 </section>
                 <section class="recommend">
                     
+                    
+                    <section class="nav next">
+                        <div class="head">下篇文章</div>
+                        <a class="link" href="/help.html">简洁的静态博客构建工具 —— 纸小墨（InkPaper）</a>
+                    </section>
                     
                 </section>
                 
